@@ -1,0 +1,38 @@
+body{
+  /*background-color: blue;*/
+}
+
+h1{
+  text-align: center;
+  color:red;
+}
+
+h2{
+  color:blue;
+}
+
+
+
+.right{
+   color: green;
+  }
+
+.wrong{
+  color: red;
+}
+
+img{
+  height:100px;
+  width: 100px;
+  opacity: 0.2;
+}
+
+.show{
+  height:100px;
+  width: 100px;
+  opacity:1;
+}
+
+.pond{
+  padding: 50px 50px 50px 50px;
+}
