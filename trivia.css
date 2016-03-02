@@ -1,25 +1,49 @@
 body{
-  /*background-color: blue;*/
+  /*background-color: aqua;*/
 }
 
-h1{
+.container{
+  padding: 20px 100px 0px 100px;
+}
+
+}
+
+h1 {
+  font-family: Arial;
+  font-size: 32px;
   text-align: center;
-  color:red;
+  color: black;
 }
 
 h2{
   color:blue;
+  text-align: center;
+  padding: 0px 0px 0px 0px;
 }
 
-
-
-.right{
-   color: green;
-  }
-
-.wrong{
-  color: red;
+h3{
+  text-align: center;
+  padding: 50px 50px 50px 50px;
 }
+
+#input{
+  float:left;
+  padding: 5px 10px;
+  /*margin: 8px 0;*/
+  /*box-sizing: border-box;*/
+  font-size: 20px;
+  font-family: Arial;
+  border-radius: 5px;
+}
+
+#label{
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  font-family: Arial;
+}
+
 
 img{
   height:100px;
@@ -34,5 +58,44 @@ img{
 }
 
 .pond{
-  padding: 50px 50px 50px 50px;
+  margin-left:auto;
+  margin-right;
+  display: block;
+  padding: 100px 100px 0px 200px;
 }
+
+.controls {
+  padding: 20px 20px 0px 20px;
+  text-align: left;
+}
+
+
+button {
+  background: #4CAF50;
+  color: #FFF;
+  font-family: Arial;
+  font-size: 20px;
+  float: right;
+  border: 1px solid black;
+  margin: 20px;
+  padding: 15px 25px;
+  border-radius: 10px;
+  box-shadow: 2px 2px black;
+  cursor: pointer;
+}
+
+button:hover{
+    background: #356094;
+}
+
+@media screen and (max-width: 1000px) {
+  .container .pond {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media screen and (max-width: 500px) {
+.container .pond {
+    padding: 0px !important;
+    display: none !important;
