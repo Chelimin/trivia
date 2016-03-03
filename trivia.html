@@ -12,7 +12,7 @@
   <body>
 
       <div class="heading">
-        <h1>Help Froggy get to the other side of the pond before the Snake sees him... <br> You have 60 seconds! </h1>
+        <h1 id="title">Help Froggy get to the other side of the pond before the Snake sees him... <br> You have 60 seconds! </h1>
         <h1 id="time"></h1>
       </div>
 
@@ -22,26 +22,29 @@
     <button id="start">Start</button>
 
     <h2 id="question"></h2>
-    <label id="label" for="Answer" >Your answer:</label>
+    <label id="label" for="Answer" >Your Answer:</label>
     <input id="input" type="text" placeholder="Answer">
     </div>
 
     <h3 id="hint"></h3>
+    <h3 id="score"></h3>
 
-    <div class=pond>
     <img src="images/snake.png"  alt="" id="snake">
     <img src="images/frog.png"  alt="" id="frog" hidden="true">
-    <img src="images/waterlily.jpg"  alt="" id="lily1" >
-    <img src="images/waterlily.jpg"  alt="" id="lily2" >
-    <img src="images/waterlily.jpg"  alt="" id="lily3" >
-    <img src="images/waterlily.jpg"  alt="" id="lily4" >
-    <img src="images/waterlily.jpg"  alt="" id="lily5" >
-    <img src="images/victoryfrog.png"  alt="" id="victoryfrog" hidden="true">
+
+    <div class=pond>
+    <img src="images/lily.png"  alt="" id="lily1" >
+    <img src="images/lily.png"  alt="" id="lily2" >
+    <img src="images/lily.png"  alt="" id="lily3" >
+    <img src="images/lily.png"  alt="" id="lily4" >
+    <img src="images/lily.png"  alt="" id="lily5" >
     </div>
+
+    <img src="images/victoryfrog.png"  alt="" id="victoryfrog" hidden="true">
 
 </div>
 
-    <h3 id="score"></h3>
+
       <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
       <script src="trivia.js"></script>
 

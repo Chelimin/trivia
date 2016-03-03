@@ -1,18 +1,22 @@
-body{
-  /*background-color: aqua;*/
-}
 
 .container{
-  padding: 20px 100px 0px 100px;
+  padding: 0px 100px 0px 200px;
+  height: 500px;
+  width: 1000px;
 }
 
 }
 
 h1 {
   font-family: Arial;
-  font-size: 32px;
+  font-size: 24px;
   text-align: center;
-  color: black;
+  color: blue;
+}
+
+#time{
+  color: red;
+  text-align: center;
 }
 
 h2{
@@ -23,7 +27,8 @@ h2{
 
 h3{
   text-align: center;
-  padding: 50px 50px 50px 50px;
+  padding: 20px 0px 0px 0px;
+  color: blue;
 }
 
 #input{
@@ -31,7 +36,7 @@ h3{
   padding: 5px 10px;
   /*margin: 8px 0;*/
   /*box-sizing: border-box;*/
-  font-size: 20px;
+  font-size: 16px;
   font-family: Arial;
   border-radius: 5px;
 }
@@ -40,7 +45,7 @@ h3{
   display:block;
   margin-left: auto;
   margin-right: auto;
-  font-size: 20px;
+  font-size: 16px;
   font-family: Arial;
 }
 
@@ -57,15 +62,50 @@ img{
   opacity:1;
 }
 
+#victoryfrog{
+  display: flex;
+  float:right;
+  width: 80px;
+  height: 80px;
+  color: white;
+  animation: 1s double infinite;
+}
+
+#victoryfrog span {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+@keyframes double {
+  from {
+    width: 80px;
+    height: 80px;
+  }
+
+  30% {
+    width: 100px;
+    height: 100px;
+  }
+
+  to {
+    width: 80px;
+    height: 80px;
+  }
+}
+
 .pond{
   margin-left:auto;
-  margin-right;
-  display: block;
-  padding: 100px 100px 0px 200px;
+  margin-right:auto;
+  display: flex;
+  padding: 100px 50px 0px 200px;
+  height: 300px;
+  width: 800px;
+  background-image: url("images/pond.png");
+  background-repeat: no-repeat;
 }
 
 .controls {
-  padding: 20px 20px 0px 20px;
+  padding: 0px 20px 0px 20px;
   text-align: left;
 }
 
@@ -74,7 +114,7 @@ button {
   background: #4CAF50;
   color: #FFF;
   font-family: Arial;
-  font-size: 20px;
+  font-size: 16px;
   float: right;
   border: 1px solid black;
   margin: 20px;
@@ -89,13 +129,13 @@ button:hover{
 }
 
 @media screen and (max-width: 1000px) {
-  .container .pond {
+  .container {
         width: 100%;
         height: auto;
     }
 }
 
 @media screen and (max-width: 500px) {
-.container .pond {
+.container {
     padding: 0px !important;
     display: none !important;
