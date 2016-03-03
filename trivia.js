@@ -1,7 +1,7 @@
 var count=0;
 var counter = 0;
 var seconds = 60;
-//rem to change timing in line 108 too!
+//rem to change timing in line 108 too
 var input = document.getElementById('input');
 var q1 = "What is the population of Singapore to the nearest million?";
 var q2 = "How many islands is Singapore made up of?";
