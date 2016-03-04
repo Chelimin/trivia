@@ -89,8 +89,6 @@ start.on('click',function () {
   victoryfrog.className="hide";
   count=0;
   counter=0;
-  console.log(count);
-  console.log(counter);
   newGame.play();
   $('#start').hide();
   $('#input').focus();
@@ -113,14 +111,3 @@ start.on('click',function () {
         $('#frog').attr("src","images/snakeeat.jpg")
       }
     }
-
-    // function checkInput(x){
-    // if ((x%1) != 0 || x!==" "){
-    //     alert("Please don't try to be funny and enter valid input!");
-    //     return false;
-    //   }
-    // }
-
-  //   $('#start').on('click',function() {
-  //  location.reload();
-  //    });
