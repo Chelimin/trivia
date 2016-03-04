@@ -111,3 +111,5 @@ start.on('click',function () {
         $('#frog').attr("src","images/snakeeat.jpg")
       }
     }
+
+//
