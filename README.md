@@ -6,6 +6,6 @@ An expandable trivia game with (60s) timer, written with Javascript Object-Orien
 
 Frog and lilies are to add a fun element but can be changed into something else to keep score.
 
-<img src="trivia_screenshot.png" width=600 height=360 >
+<img src="Screen Shot 2016-03-04.png" width=600 height=360 >
 
 ***
