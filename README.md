@@ -1,6 +1,6 @@
 # Trivia
 
-First project for WDI-2 in Singapore. 
+First project for General Assembly's Web Development Immersive program in Singapore. 
 
 An expandable trivia game with (60s) timer, written with Javascript Object-Oriented Programming, so that more questions can be added easily.
 
